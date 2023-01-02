@@ -70,7 +70,7 @@ body {
   border: none;
 }
 
-.pHeader {
+.textHeader {
   margin-bottom: 10px;
 }
 
@@ -356,7 +356,7 @@ form button {
 
   .articulos {
     width: 24.25%;
-    height: 300px;
+    height: 350px;
   }
 
   .footerInfo {
