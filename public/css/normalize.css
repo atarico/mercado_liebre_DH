@@ -1,5 +1,192 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-   }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+/* == +bg-colors == */
+/* ====================== */
+.bg-white {
+  background-color: var(--Blanco);
+}
+
+.bg-blue {
+  background-color: var(--Celeste);
+}
+
+.bg-dark-grey {
+  background-color: var(--GrisOscuro);
+}
+
+.bg-light-grey {
+  background-color: var(--GrisClaro);
+}
+
+.bg-yellow {
+  background-color: var(--Amarillo);
+}
+
+/* == +text-colors == */
+/* ====================== */
+
+.color-green {
+  color: var(--Verde);
+}
+.color-blue {
+  color: var(--Celeste);
+}
+.color-white {
+  color: var(--Blanco);
+}
+
+.color-black {
+  color: var(--Negro);
+}
+
+.color-dark-grey {
+  color: var(--GrisOscuro);
+}
+
+/* == +fuentes == */
+/* ====================== */
+.font-s {
+  font-size: 10px;
+}
+.font-m {
+  font-size: 12px;
+}
+.font-lg {
+  font-size: 16px;
+}
+
+.font-xl {
+  font-size: 24px;
+}
+
+/* == +Widths == */
+/* ====================== */
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-45 {
+  width: 45%;
+}
+.w-30 {
+  width: 30%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.vw-90 {
+  width: 90vw;
+}
+
+.vw-70 {
+  width: 70vw;
+}
+.vw-80 {
+  width: 80vw;
+}
+
+/* == +Margin == */
+/* ====================== */
+
+.mx-auto {
+  margin: 0 auto;
+}
+.mb-1 {
+  margin-bottom: 18px;
+}
+.mb-2 {
+  margin-bottom: 36px;
+}
+.mt-1 {
+  margin-top: 18px;
+}
+.mr-1 {
+  margin-right: 18px;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+/* == +Flex == */
+/* ====================== */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* == +Extras == */
+/* ====================== */
+
+.p-1 {
+  padding: 8px;
+}
+
+.radius-1 {
+  border-radius: 6px;
+}
+
+.b-none {
+  border: none;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px #646464;
+}
+
+.buttons {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.centrado1200 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -24,18 +24,20 @@
     <link rel="Stylesheet" href="/css/normalize.css" />
     <link rel="Stylesheet" href="/css/styles.css" />
 
-    <title>Mercado Liebre</title>
+    <title>Register Mercado Liebre</title>
   </head>
 
   <body class="bg-light-grey">
     <header class="bg-yellow">
-      <div class="header align-center centrado1200">
+      <div class="header align-center flex flex-wrap bg-yellow centrado1200">
         <h1 class="w-45 logo">
           <a href="/"
             ><img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre"
           /></a>
         </h1>
-        <div class="p-1 w-45 flex radius-1 bg-white busquedaContainer">
+        <div
+          class="p-1 w-45 flex radius-1 bg-white busquedaContainer align-center"
+        >
           <input
             class="busqueda"
             type="text"
@@ -49,23 +51,21 @@
           <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
           tarjeta de crédito
         </p>
-        <div class="burgerMenu w-100">
-          <a href="javascript:void(0);" class="icon">
-            <i class="fas fa-bars"></i
-          ></a>
+        <div class="burgerMenu txt-center bg-blue mx-auto w-100">
+          <a href="" class="icon"> <i class="fas fa-bars color-white"></i></a>
         </div>
 
-        <nav id="links" class="nav font-lg">
-          <section class="section1">
-            <ul class="py-1">
+        <nav id="links" class="nav font-lg w-100 txt-center">
+          <section class="section1 flex flex-column felx-wrap">
+            <ul class="nav-list">
               <li><a class="nav-link" href="#">Ofertas</a></li>
               <li><a class="nav-link" href="#">Tiendas Oficiales</a></li>
               <li><a class="nav-link" href="#">Vender</a></li>
               <li><a class="nav-link" href="#">Ayuda</a></li>
             </ul>
           </section>
-          <section class="section2">
-            <ul class="py-1">
+          <section class="section2 flex flex-column felx-wrap">
+            <ul class="nav-list">
               <li>
                 <a class="nav-link" href="/register"
                   >Crea tu cuenta <i class="fa-regular fa-address-card"></i
@@ -88,7 +88,10 @@
     </header>
     <main class="p-1 vw-80 mx-auto mt-1">
       <h2 class="title color-dark-grey txt-center mt-1">Registrate</h2>
-      <form action="" class="mx-auto mb-1">
+      <form
+        action=""
+        class="mx-auto mb-1 mt-1 flex flex-column flex-wrap box-shadow"
+      >
         <input
           class="w-100 font-m"
           type="text"
@@ -222,32 +225,32 @@
     </main>
 
     <footer class="bg-white mt-auto">
-      <div class="footer bg-white centrado1200">
-        <div class="footerInfo">
-          <i class="fa-solid fa-credit-card footerIcon"></i>
+      <div class="footer mt-auto flex flex-column bg-white centrado1200">
+        <div class="footerInfo txt-center">
+          <i class="fa-solid fa-credit-card footerIcon color-blue"></i>
           <h4 class="color-dark-grey font-m">Pagá con tarjeta o en efectivo</h4>
           <p class="color-dark-grey font-m">
             Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
             efectivo en puntos de pago. ¡Y siempre es seguro!
           </p>
         </div>
-        <div class="footerInfo">
-          <i class="fa-solid fa-gift footerIcon"></i>
+        <div class="footerInfo txt-center">
+          <i class="fa-solid fa-gift footerIcon color-blue"></i>
           <h4 class="color-dark-grey font-m">Envío gratis desde $ 2.500</h4>
           <p class="color-dark-grey font-m">
             Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
             miles de productos. Es un beneficio de Mercado Puntos.
           </p>
         </div>
-        <div class="footerInfo">
-          <i class="fa-solid fa-user-shield footerIcon"></i>
+        <div class="footerInfo txt-center">
+          <i class="fa-solid fa-user-shield footerIcon color-blue"></i>
           <h4 class="color-dark-grey font-m">Seguridad, de principio a fin</h4>
           <p class="color-dark-grey font-m">
             ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
             puedas hacer, porque estás siempre protegid@.
           </p>
         </div>
-        <p class="w100 color-dark-grey font-m footerCopyrigths">
+        <p class="w100 color-dark-grey font-m mx-auto inline-block">
           Copyright © 1999-2020 MercadoLiebre S.R.L.
         </p>
       </div>
