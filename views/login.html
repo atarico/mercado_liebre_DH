@@ -23,113 +23,117 @@
     <title>Login</title>
   </head>
   <body class="bg-light-grey">
-    <header class="header align-center">
-      <h1 class="w-45 logo">
-        <a href="/"
-          ><img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre"
-        /></a>
-      </h1>
-      <div class="p-1 w-45 flex radius-1 bg-white busquedaContainer">
-        <input
-          class="busqueda"
-          type="text"
-          placeholder="Buscá productos por nombre, marcas o palabras clave"
-        />
-        <button class="bg-white b-none">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </div>
-      <p class="txt-center w-100 textHeader">
-        <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
-        tarjeta de crédito
-      </p>
-      <div class="burgerMenu w-100">
-        <a href="javascript:void(0);" class="icon">
-          <i class="fas fa-bars"></i
-        ></a>
-      </div>
+    <header class="bg-yellow">
+      <div class="header align-center centrado1200">
+        <h1 class="w-45 logo">
+          <a href="/"
+            ><img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre"
+          /></a>
+        </h1>
+        <div class="p-1 w-45 flex radius-1 bg-white busquedaContainer">
+          <input
+            class="busqueda"
+            type="text"
+            placeholder="Buscá productos por nombre, marcas o palabras clave"
+          />
+          <button class="bg-white b-none">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <p class="txt-center w-100 textHeader">
+          <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
+          tarjeta de crédito
+        </p>
+        <div class="burgerMenu w-100">
+          <a href="javascript:void(0);" class="icon">
+            <i class="fas fa-bars"></i
+          ></a>
+        </div>
 
-      <nav id="links" class="nav font-lg">
-        <section class="section1">
-          <ul class="py-1">
-            <li><a class="nav-link" href="#">Ofertas</a></li>
-            <li><a class="nav-link" href="#">Tiendas Oficiales</a></li>
-            <li><a class="nav-link" href="#">Vender</a></li>
-            <li><a class="nav-link" href="#">Ayuda</a></li>
-          </ul>
-        </section>
-        <section class="section2">
-          <ul class="py-1">
-            <li>
-              <a class="nav-link" href="/register"
-                >Crea tu cuenta <i class="fa-regular fa-address-card"></i
-              ></a>
-            </li>
-            <li>
-              <a class="nav-link" href="/login"
-                >Ingresá <i class="fa-sharp fa-solid fa-right-to-bracket"></i
-              ></a>
-            </li>
-            <li>
-              <a class="nav-link" href="#"
-                >Mis Compras <i class="fa-solid fa-basket-shopping"></i
-              ></a>
-            </li>
-          </ul>
-        </section>
-      </nav>
+        <nav id="links" class="nav font-lg">
+          <section class="section1">
+            <ul class="py-1">
+              <li><a class="nav-link" href="#">Ofertas</a></li>
+              <li><a class="nav-link" href="#">Tiendas Oficiales</a></li>
+              <li><a class="nav-link" href="#">Vender</a></li>
+              <li><a class="nav-link" href="#">Ayuda</a></li>
+            </ul>
+          </section>
+          <section class="section2">
+            <ul class="py-1">
+              <li>
+                <a class="nav-link" href="/register"
+                  >Crea tu cuenta <i class="fa-regular fa-address-card"></i
+                ></a>
+              </li>
+              <li>
+                <a class="nav-link" href="/login"
+                  >Ingresá <i class="fa-sharp fa-solid fa-right-to-bracket"></i
+                ></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"
+                  >Mis Compras <i class="fa-solid fa-basket-shopping"></i
+                ></a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </div>
     </header>
 
-    <main class="p-1 vw-70 mx-auto">
-      <h2 class="title color-dark-grey">Ingresa</h2>
-      <form action="">
-        <input
-          class="w-100 font-m"
-          type="text"
-          placeholder="Nombre y Apellido"
-          id="nombreApellido"
-        />
+    <main class="p-1 vw-80 mx-auto mt-1">
+      <h2 class="title color-dark-grey txt-center mt-1">Ingresa</h2>
+      <form action="" class="mx-auto mb-1">
         <input
           class="w-100 font-m"
           type="text"
           placeholder="Nombre de Usuario"
+          id="userName"
         />
+        <label for="userName" class="hidden">Nombre de Usuario</label>
+
+        <input class="w-100 font-m" type="password" placeholder="password" />
+        <label for="password" class="hidden">Password</label>
+
         <button
-          class="w-100 bg-blue b-none radius-1 loginButton font-family color-white"
+          class="w-25 mx-auto bg-blue b-none radius-1 formButton font-family color-white mb-1"
           type="submit"
         >
-          Enviar
+          Ingresar
         </button>
       </form>
     </main>
-    <footer class="footer bg-white">
-      <div class="footerInfo">
-        <i class="fa-solid fa-credit-card footerIcon"></i>
-        <h4 class="color-dark-grey font-m">Pagá con tarjeta o en efectivo</h4>
-        <p class="color-dark-grey font-m">
-          Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
-          efectivo en puntos de pago. ¡Y siempre es seguro!
+    <footer class="bg-white mt-auto">
+      <div class="footer bg-white centrado1200">
+        <div class="footerInfo">
+          <i class="fa-solid fa-credit-card footerIcon"></i>
+          <h4 class="color-dark-grey font-m">Pagá con tarjeta o en efectivo</h4>
+          <p class="color-dark-grey font-m">
+            Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+            efectivo en puntos de pago. ¡Y siempre es seguro!
+          </p>
+        </div>
+        <div class="footerInfo">
+          <i class="fa-solid fa-gift footerIcon"></i>
+          <h4 class="color-dark-grey font-m">Envío gratis desde $ 2.500</h4>
+          <p class="color-dark-grey font-m">
+            Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+            miles de productos. Es un beneficio de Mercado Puntos.
+          </p>
+        </div>
+        <div class="footerInfo">
+          <i class="fa-solid fa-user-shield footerIcon"></i>
+          <h4 class="color-dark-grey font-m">Seguridad, de principio a fin</h4>
+          <p class="color-dark-grey font-m">
+            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+            puedas hacer, porque estás siempre protegid@.
+          </p>
+        </div>
+        <p class="w100 color-dark-grey font-m footerCopyrigths">
+          Copyright © 1999-2020 MercadoLiebre S.R.L.
         </p>
       </div>
-      <div class="footerInfo">
-        <i class="fa-solid fa-gift footerIcon"></i>
-        <h4 class="color-dark-grey font-m">Envío gratis desde $ 2.500</h4>
-        <p class="color-dark-grey font-m">
-          Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
-          miles de productos. Es un beneficio de Mercado Puntos.
-        </p>
-      </div>
-      <div class="footerInfo">
-        <i class="fa-solid fa-user-shield footerIcon"></i>
-        <h4 class="color-dark-grey font-m">Seguridad, de principio a fin</h4>
-        <p class="color-dark-grey font-m">
-          ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
-          hacer, porque estás siempre protegid@.
-        </p>
-      </div>
-      <p class="w100 color-dark-grey font-m">
-        Copyright © 1999-2020 MercadoLiebre S.R.L.
-      </p>
     </footer>
   </body>
 </html>

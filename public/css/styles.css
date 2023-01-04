@@ -55,13 +55,39 @@ body {
 .vw-70 {
   width: 70vw;
 }
+.vw-80 {
+  width: 80vw;
+}
 
 .txt-center {
   text-align: center;
 }
 
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.p-1 {
+  padding: 8px;
 }
 
 .radius-1 {
@@ -74,6 +100,24 @@ body {
 
 .textHeader {
   margin-bottom: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.mb-1 {
+  margin-bottom: 18px;
+}
+.mt-1 {
+  margin-top: 18px;
+}
+.mr-1 {
+  margin-right: 18px;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .nav {
@@ -111,14 +155,6 @@ body {
   flex-direction: column;
 }
 
-.align-center {
-  align-items: center;
-}
-
-.p-1 {
-  padding: 8px;
-}
-
 .busqueda {
   min-width: 0;
   margin-right: 2px;
@@ -140,7 +176,6 @@ body {
 }
 
 .centrado1200 {
-  border: 2px solid red;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -169,11 +204,13 @@ body {
 .w-45 {
   width: 45%;
 }
+.w-25 {
+  width: 25%;
+}
 
 .title {
   margin-bottom: 16px;
   font-size: 24px;
-  text-align: center;
 }
 
 .articulos img {
@@ -250,6 +287,9 @@ form {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+  max-width: 450px;
+  box-shadow: 0 2px 4px rgb(100, 100, 100);
+  padding: 18px;
 }
 
 form input {
@@ -271,8 +311,8 @@ form button {
   padding: 10px 0px;
 }
 
-.loginButton:hover {
-  background-color: #76a0d6;
+.formButton:hover {
+  background-color: #013373;
   transition: background-color, 0.5s;
 }
 
@@ -288,6 +328,7 @@ form button {
 }
 
 .footer {
+  margin-top: auto;
   display: flex;
   flex-direction: column;
   padding: 26px;
@@ -382,8 +423,8 @@ form button {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .footerIcon:hover {
-    color: #76a0d6;
+  .footerInfo:hover .footerIcon {
+    color: #013373;
     transition: color, 0.5s;
   }
 }

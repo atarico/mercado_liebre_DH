@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-const Port = process.env.PORT || 3001;
+const Port = process.env.PORT || 3000;
 
 app.listen(Port, () => {
   console.log("Se prendio");
