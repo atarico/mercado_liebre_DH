@@ -213,6 +213,10 @@ body {
   font-size: 24px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .articulos img {
   width: 85%;
   margin: 10px;
