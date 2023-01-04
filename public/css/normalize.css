@@ -171,6 +171,10 @@
   cursor: pointer;
 }
 
+.productShadow {
+  box-shadow: 0px 0px 10px #646464;
+}
+
 .box-shadow {
   box-shadow: 0 2px 4px #646464;
 }
