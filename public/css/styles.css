@@ -131,11 +131,6 @@ body {
   margin: 0 6px;
 }
 
-.nav:checked {
-  height: 300px;
-  transition: height, 0.5s;
-}
-
 .py-1 li {
   border-top: 1px solid #666;
   padding: 6px 0px;
@@ -382,6 +377,9 @@ form button {
   .textHeader {
     margin-bottom: 0px;
     width: 30%;
+  }
+  .nav-link {
+    font-size: 16px;
   }
   .logo {
     width: 30%;
