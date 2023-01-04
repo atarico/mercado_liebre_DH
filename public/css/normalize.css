@@ -178,6 +178,14 @@
 .box-shadow {
   box-shadow: 0 2px 4px #646464;
 }
+.input-shadow {
+  box-shadow: 0px 1px 4px -1px #0e0e0e;
+}
+
+.border-outline-none {
+  border: none;
+  outline: none;
+}
 
 .buttons {
   margin: auto;

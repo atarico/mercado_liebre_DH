@@ -35,10 +35,10 @@
           /></a>
         </h1>
         <div
-          class="p-1 w-45 flex radius-1 bg-white busquedaContainer align-center"
+          class="busquedaContainer p-1 w-45 flex radius-1 bg-white align-center input-shadow"
         >
           <input
-            class="busqueda"
+            class="busqueda border-outline-none"
             type="text"
             placeholder="Buscá productos por nombre, marcas o palabras clave"
           />
@@ -93,18 +93,22 @@
         class="mx-auto mb-1 mt-1 flex flex-column flex-wrap box-shadow radius-1"
       >
         <input
-          class="w-100 font-m"
+          class="w-100 font-m input-shadow border-outline-none"
           type="text"
           placeholder="Nombre de Usuario"
           id="userName"
         />
         <label for="userName" class="hidden">Nombre de Usuario</label>
 
-        <input class="w-100 font-m" type="password" placeholder="password" />
+        <input
+          class="w-100 font-m input-shadow border-outline-none"
+          type="password"
+          placeholder="password"
+        />
         <label for="password" class="hidden">Password</label>
 
         <button
-          class="w-25 mx-auto bg-blue b-none radius-1 formButton font-family color-white mb-1 pointer"
+          class="w-25 mx-auto bg-blue b-none radius-1 formButton font-family color-white mb-1 pointer box-shadow"
           type="submit"
         >
           Ingresar

@@ -28,13 +28,10 @@ body {
   min-width: 0;
   margin-right: 2px;
   flex-grow: 1;
-  border: none;
-  outline: none;
 }
 
 .busquedaContainer {
   padding: 12px 14px;
-  box-shadow: 0px 1px 4px -1px #0e0e0e;
 }
 
 .textHeader {
@@ -113,7 +110,6 @@ form {
 form input {
   padding: 10px;
   margin-bottom: 6px;
-  border: none;
   border-radius: 6px;
 }
 
