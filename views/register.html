@@ -40,7 +40,7 @@
         >
           <input
             class="busqueda border-outline-none"
-            type="text"
+            type="search"
             placeholder="Buscá productos por nombre, marcas o palabras clave"
           />
           <button class="bg-white b-none">
@@ -89,7 +89,7 @@
     <main class="p-1 vw-80 mx-auto mt-1">
       <h2 class="title color-dark-grey txt-center mt-1">Registrate</h2>
       <form
-        action=""
+        action="/"
         class="mx-auto mb-1 mt-1 flex flex-column flex-wrap box-shadow radius-1"
       >
         <input
@@ -109,6 +109,15 @@
         />
 
         <label class="hidden" for="newUser">Nombre de Usuario</label>
+
+        <input
+          class="w-100 font-m input-shadow border-outline-none"
+          type="text"
+          placeholder="e-mail"
+          id="newEmail"
+        />
+
+        <label class="hidden" for="newEmail">e-mail</label>
 
         <input
           class="w-100 font-m input-shadow border-outline-none"
@@ -152,9 +161,9 @@
           </label>
 
           <input type="radio" name="perfildeUsuario" id="comprador" />
-          <label class="font-m" for="comprador">Comprador</label>
+          <label class="font-m pointer" for="comprador">Comprador</label>
           <input type="radio" name="perfildeUsuario" id="vendedor" />
-          <label class="font-m" for="vendedor">Vendedor</label>
+          <label class="font-m pointer" for="vendedor">Vendedor</label>
         </div>
 
         <div class="" id="intereses">
@@ -166,37 +175,44 @@
             class="font-m inline-block mr-1"
             type="checkbox"
             name=""
-            id=""
+            id="elctro"
           />
-          <label class="font-m inline-block" for="">Electro</label><br />
+          <label class="font-m inline-block pointer" for="elctro">Electro</label
+          ><br />
           <input
             class="font-m inline-block mr-1"
             type="checkbox"
             name=""
-            id=""
+            id="moda"
           />
-          <label class="font-m inline-block" for="">Moda</label><br />
+          <label class="font-m inline-block pointer" for="moda">Moda</label
+          ><br />
           <input
             class="font-m inline-block mr-1"
             type="checkbox"
             name=""
-            id=""
+            id="hogar"
           />
-          <label class="font-m inline-block" for="">Hogar</label><br />
+          <label class="font-m inline-block pointer" for="hogar">Hogar</label
+          ><br />
           <input
             class="font-m inline-block mr-1"
             type="checkbox"
             name=""
-            id=""
+            id="jugueteria"
           />
-          <label class="font-m inline-block" for="">Jugueteria</label><br />
+          <label class="font-m inline-block pointer" for="jugueteria"
+            >Jugueteria</label
+          ><br />
           <input
             class="font-m inline-block mr-1"
             type="checkbox"
             name=""
-            id=""
+            id="vidaSana"
           />
-          <label class="font-m inline-block" for="">Vida Sana</label><br />
+          <label class="font-m inline-block pointer" for="vidaSana"
+            >Vida Sana</label
+          ><br />
         </div>
 
         <div class="mt-1">
