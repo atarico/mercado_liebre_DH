@@ -187,12 +187,6 @@
   outline: none;
 }
 
-.buttons {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
 .hidden {
   visibility: hidden;
 }

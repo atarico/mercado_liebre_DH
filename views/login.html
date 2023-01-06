@@ -34,7 +34,8 @@
             ><img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre"
           /></a>
         </h1>
-        <div
+        <form
+          action="/"
           class="busquedaContainer p-1 w-45 flex radius-1 bg-white align-center input-shadow"
         >
           <input
@@ -45,7 +46,7 @@
           <button class="bg-white b-none">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-        </div>
+        </form>
         <p class="txt-center w-100 textHeader">
           <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
           tarjeta de crédito
@@ -57,26 +58,28 @@
         <nav id="links" class="nav font-lg w-100 txt-center">
           <section class="section1 flex flex-column felx-wrap">
             <ul class="nav-list">
-              <li><a class="nav-link" href="#">Ofertas</a></li>
-              <li><a class="nav-link" href="#">Tiendas Oficiales</a></li>
-              <li><a class="nav-link" href="#">Vender</a></li>
-              <li><a class="nav-link" href="#">Ayuda</a></li>
+              <li><a class="nav-link color-black" href="#">Ofertas</a></li>
+              <li>
+                <a class="nav-link color-black" href="#">Tiendas Oficiales</a>
+              </li>
+              <li><a class="nav-link color-black" href="#">Vender</a></li>
+              <li><a class="nav-link color-black" href="#">Ayuda</a></li>
             </ul>
           </section>
           <section class="section2 flex flex-column felx-wrap">
             <ul class="nav-list">
               <li>
-                <a class="nav-link" href="/register"
+                <a class="nav-link color-black" href="/register"
                   >Crea tu cuenta <i class="fa-regular fa-address-card"></i
                 ></a>
               </li>
               <li>
-                <a class="nav-link" href="/login"
+                <a class="nav-link color-black" href="/login"
                   >Ingresá <i class="fa-sharp fa-solid fa-right-to-bracket"></i
                 ></a>
               </li>
               <li>
-                <a class="nav-link" href="#"
+                <a class="nav-link color-black" href="#"
                   >Mis Compras <i class="fa-solid fa-basket-shopping"></i
                 ></a>
               </li>
@@ -90,7 +93,7 @@
       <h2 class="title color-dark-grey txt-center mt-1">Ingresa</h2>
       <form
         action="/"
-        class="mx-auto mb-1 mt-1 flex flex-column flex-wrap box-shadow radius-1"
+        class="contactForm mx-auto mb-1 mt-1 flex flex-column flex-wrap box-shadow radius-1"
       >
         <input
           class="w-100 font-m input-shadow border-outline-none"
@@ -108,7 +111,7 @@
         <label for="password" class="hidden">Password</label>
 
         <button
-          class="w-25 mx-auto bg-blue b-none radius-1 formButton font-family color-white mb-1 pointer box-shadow"
+          class="mx-auto bg-blue b-none radius-1 formButton font-family color-white mb-1 pointer box-shadow"
           type="submit"
         >
           Ingresar

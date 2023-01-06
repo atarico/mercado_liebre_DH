@@ -43,7 +43,6 @@ body {
 }
 .nav-link {
   text-decoration: none;
-  color: var(--Negro);
   margin: 0 6px;
 }
 
@@ -58,6 +57,10 @@ body {
   width: 36px;
   padding: 8px 0;
   margin-bottom: 6px;
+}
+
+.banner {
+  max-width: 1500px;
 }
 
 .listaProducto {
@@ -100,36 +103,38 @@ body {
   width: 70%;
 }
 
-form {
+.contactForm {
   justify-content: space-between;
   max-width: 450px;
   padding: 18px;
   background-color: var(--Gris-form);
 }
 
-form input {
+.contactForm input {
   padding: 10px;
   margin-bottom: 6px;
   border-radius: 6px;
 }
 
-form label,
+.contactForm label,
 p {
   margin: 6px 0px;
 }
 
-form button {
-  padding: 10px 0px;
+.contactForm button {
+  padding: 8px 22px;
+  width: 100%;
+  max-width: 150px;
+}
+
+.buttons button {
+  padding: 8px 22px;
+  margin: 10px 5px 0 5px;
 }
 
 .formButton:hover {
   background-color: var(--Azul);
   transition: background-color, 0.5s;
-}
-
-.buttons button {
-  width: 47%;
-  padding: 4px 20px;
 }
 
 .footer {
